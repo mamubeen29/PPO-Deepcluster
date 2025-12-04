@@ -11,7 +11,7 @@
      conda activate Deepcluster
      ```
 3. **Configure the Nanocluster Composition:**
-   - Edit Deepcluster.py to select the nanocluster composition.
+   - Edit `Deepcluster.py` to select the nanocluster composition.
      
      For simulating a mono metallic nanocluster change 'eleNames' and 'eleNums':
      - Ag13 Nanocluster:
