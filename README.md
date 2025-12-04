@@ -9,19 +9,21 @@
 
 2. **Configure the Nanocluster Composition:**
    - Edit Deepcluster.py to select the nanocluster composition.
+     
      For simulating a mono metallic nanocluster change 'eleNames' and 'eleNums':
-   - Ag13 Nanocluster:
+     - Ag13 Nanocluster:
      ```bash
      eleNames = ['Ag']
      eleNums = [13]
      ```
-   - Cu13 Nanocluster:
+     - Cu13 Nanocluster:
      ```bash
      eleNames = ['Cu']
      eleNums = [13]
      ```
 
      For simulating a bi metallic nanocluster change 'eleNames' and 'eleNums':
+     
      - Ag12Cu1 Nanocluster:
      ```bash
      eleNames = ['Ag','Cu']
