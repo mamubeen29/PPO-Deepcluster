@@ -7,10 +7,11 @@
      conda env create -f Deepcluster.yml
      ```
 2. **Activate the Environment:**
+   - Activate the `Deepcluster` environment by using the following command:
      ```bash
      conda activate Deepcluster
      ```
-3. **Configure the Nanocluster Composition:**
+4. **Configure the Nanocluster Composition:**
    - Edit `Deepcluster.py` to select the nanocluster composition.
      
      For simulating a mono metallic nanocluster change 'eleNames' and 'eleNums':
@@ -87,7 +88,7 @@
      eleNames = ['Ag','Cu']
      eleNums = [1,12]
      ```
-4. **Run the Simulation:**
+5. **Run the Simulation:**
    - Execute the script using Python.
      ```bash
      python Deepcluster.py  
