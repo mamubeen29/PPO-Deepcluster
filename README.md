@@ -1,4 +1,4 @@
-# Deepcluster Agent Agent For Efficient Discovery of Global Minima Structures in Ag–Cu Nanoalloys by Deep Reinforcement Learning
+# Deepcluster Agent For Efficient Discovery of Global Minima Structures in Ag–Cu Nanoalloys by Deep Reinforcement Learning
 ## How to Run the Code
 
 1. **Set Up the Environment:**
