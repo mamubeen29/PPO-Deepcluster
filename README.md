@@ -9,7 +9,7 @@ The framework models cluster optimization as a sequential decision-making proces
      conda env create -f env_clusgym.yml
      ```
 2. **Activate the Environment:**
-   - Activate the `Deepcluster` environment by using the following command:
+   - Activate the `clusgym` environment by using the following command:
      ```bash
      conda activate clusgym
      ```
