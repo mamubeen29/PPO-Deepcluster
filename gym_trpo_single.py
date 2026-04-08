@@ -16,8 +16,8 @@ from callback import Callback
 timesteps = 200
 num_parallel = 48
 #seed = 30
-eleNames = ['Cu']
-eleNums = [20]
+eleNames = ['Ag']
+eleNums = [13]
 clus_seed = None
 save_dir = 'result_' + ''.join(f"{name}{num}" for name, num in zip(eleNames, eleNums)) + '/'
 
