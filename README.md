@@ -6,15 +6,16 @@ The framework models cluster optimization as a sequential decision-making proces
 1. **Set Up the Environment:**
    - Install the required Conda environment using the provided YAML file:
      ```bash
-     conda env create -f Deepcluster.yml
+     conda env create -f env_clusgym.yml
      ```
 2. **Activate the Environment:**
    - Activate the `Deepcluster` environment by using the following command:
      ```bash
-     conda activate Deepcluster
+     conda activate clusgym
      ```
 4. **Configure the Nanocluster Composition:**
-   - Edit `Deepcluster.py` to select the nanocluster composition.
+   - Edit `gym_trpo_single.py` for TRPO to select the nanocluster composition.
+   - Edit `gym_ppo_single.py` for PPO to select the nanocluster composition.
      
      For simulating a mono metallic nanocluster change 'eleNames' and 'eleNums':
      - Ag13 Nanocluster:
