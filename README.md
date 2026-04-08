@@ -94,8 +94,8 @@ The framework models cluster optimization as a sequential decision-making proces
 5. **Run the Simulation:**
    - Execute the script using Python for TRPO.
      ```bash
-     python gym_ppo_single.py
+     python gym_trpo_single.py
 
    - Execute the script using Python for PPO.
      ```bash
-     python gym_trpo_single.py  
+     python gym_ppo_single.py  
