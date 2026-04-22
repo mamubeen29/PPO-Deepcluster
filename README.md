@@ -17,25 +17,7 @@ The framework models cluster optimization as a sequential decision-making proces
    - Edit `gym_trpo_single.py` for TRPO to select the nanocluster composition.
    - Edit `gym_ppo_single.py` for PPO to select the nanocluster composition.
      
-     For simulating a mono metallic nanocluster change 'eleNames' and 'eleNums':
-     - Cu13 Nanocluster:
-     ```bash
-     eleNames = ['Cu']
-     eleNums = [13]
-     ```
-     For simulating a bi metallic nanocluster change 'eleNames' and 'eleNums':
      
-     - Ag12Cu1 Nanocluster:
-     ```bash
-     eleNames = ['Ag','Cu']
-     eleNums = [12,1]
-     ```
-     
-     - Ag1Cu12 Nanocluster:
-     ```bash
-     eleNames = ['Ag','Cu']
-     eleNums = [1,12]
-     ```
 5. **Run the Simulation:**
    - Execute the script using Python for TRPO.
      ```bash
